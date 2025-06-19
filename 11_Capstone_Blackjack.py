@@ -1,5 +1,5 @@
 import random
-from art import logo
+# from art import logo
 
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 
@@ -8,7 +8,7 @@ def new_game():
     start = input("Would you like to play Blackjack? 'y' or 'n':  ").lower()
     if start == 'y':
         game = True
-        print(logo)
+        # print(logo)
     elif start == 'n':
         game = False
         new_game()
