@@ -4,8 +4,8 @@ import smtplib
 import datetime as dt
 import os
 ##################### Extra Hard Starting Project ######################
-my_email = 'chrishaz3ll@gmail.com'
-password = 'ifonenjqselafccv'
+my_email = ''
+password = '' #for reasons, left blank
 global new_letter
 
 # 1. Update the birthdays.csv
